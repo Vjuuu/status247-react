@@ -1,12 +1,11 @@
 import React from "react";
-
+import Header from "../components/Header";
+import BottomMenu from "../components/BottomMenu";
 const Home = () => {
   return (
     <div>
-      <div className="container-fluid p-0 ">
-        <header className="p-3 text-white">
-          <h2 className="mb-0">Status247</h2>
-        </header>
+      
+      
 
         <section className="banner position-relative mb-4">
           <img
@@ -255,49 +254,8 @@ const Home = () => {
             </div>
           </div>
         </section>
-        <nav
-          className="navbar fixed-bottom navbar-light"
-          style={{ backgroundColor: "#1C1C1E" }}
-        >
-          <div className="container-fluid justify-content-around">
-            <a
-              className="nav-link d-flex flex-column align-items-center"
-              href="/mobile-layout/"
-            >
-              <i className="fas fa-home mb-1"></i>
-              <span className="small">Home</span>
-            </a>
-            <a
-              className="nav-link d-flex flex-column align-items-center"
-              href="#"
-            >
-              <i className="fas fa-search mb-1"></i>
-              <span className="small">Search</span>
-            </a>
-            <a
-              className="nav-link d-flex flex-column align-items-center"
-              href="#"
-            >
-              <i className="fas fa-plus-circle mb-1"></i>
-              <span className="small">Create</span>
-            </a>
-            <a
-              className="nav-link d-flex flex-column align-items-center"
-              href="#"
-            >
-              <i className="fas fa-heart mb-1"></i>
-              <span className="small">Favorites</span>
-            </a>
-            <a
-              className="nav-link d-flex flex-column align-items-center"
-              href="#"
-            >
-              <i className="fas fa-user mb-1"></i>
-              <span className="small">Profile</span>
-            </a>
-          </div>
-        </nav>
-      </div>
+        
+      
 
       {/* Modal */}
       <div
