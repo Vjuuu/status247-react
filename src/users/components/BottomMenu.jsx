@@ -15,21 +15,20 @@ const BottomMenu = () => {
           <span className="small">Home</span>
         </a>
         <a className="nav-link d-flex flex-column align-items-center" href="#">
-          <i className="fas fa-search mb-1"></i>
-          <span className="small">Search</span>
-        </a>
-        <a className="nav-link d-flex flex-column align-items-center" href="#">
-          <i className="fas fa-plus-circle mb-1"></i>
-          <span className="small">Create</span>
-        </a>
-        <a className="nav-link d-flex flex-column align-items-center" href="#">
-          <i className="fas fa-heart mb-1"></i>
-          <span className="small">Favorites</span>
+          <i className="fa-solid fa-layer-group mb-1"></i>
+          <span className="small">Category</span>
         </a>
         <a className="nav-link d-flex flex-column align-items-center" href="#">
           <i className="fas fa-user mb-1"></i>
           <span className="small">Profile</span>
         </a>
+        <a className="nav-link d-flex flex-column align-items-center" href="#">
+          <i className="fa-solid fa-crown mb-1"></i>
+          <span className="small">Pro</span>
+        </a>
+
+        
+        
       </div>
     </nav>
   );
