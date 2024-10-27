@@ -26,9 +26,6 @@ const BottomMenu = () => {
           <i className="fa-solid fa-crown mb-1"></i>
           <span className="small">Pro</span>
         </a>
-
-        
-        
       </div>
     </nav>
   );

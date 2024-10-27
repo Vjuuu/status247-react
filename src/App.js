@@ -6,7 +6,7 @@ import BottomMenu from './users/components/BottomMenu';
 
 function App() {
   return (
-    <div className="container-fluid p-0 ">
+    <div className="container-fluid p-0 pb-5">
     <Header />
     <Router>
       <Routes>
