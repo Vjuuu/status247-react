@@ -1,5 +1,4 @@
 import React from "react";
-
 const BottomMenu = () => {
   return (
     <nav
@@ -9,20 +8,20 @@ const BottomMenu = () => {
       <div className="container-fluid justify-content-around">
         <a
           className="nav-link d-flex flex-column align-items-center"
-          href="/mobile-layout/"
+          href="/"
         >
           <i className="fas fa-home mb-1"></i>
           <span className="small">Home</span>
         </a>
-        <a className="nav-link d-flex flex-column align-items-center" href="#">
+        <a className="nav-link d-flex flex-column align-items-center" href="/categories">
           <i className="fa-solid fa-layer-group mb-1"></i>
           <span className="small">Category</span>
         </a>
-        <a className="nav-link d-flex flex-column align-items-center" href="#">
+        <a className="nav-link d-flex flex-column align-items-center" href="/profile">
           <i className="fas fa-user mb-1"></i>
           <span className="small">Profile</span>
         </a>
-        <a className="nav-link d-flex flex-column align-items-center" href="#">
+        <a className="nav-link d-flex flex-column align-items-center" href="/subcription">
           <i className="fa-solid fa-crown mb-1"></i>
           <span className="small">Pro</span>
         </a>
