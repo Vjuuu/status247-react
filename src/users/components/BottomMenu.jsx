@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const BottomMenu = () => {
   return (
     <nav
@@ -6,25 +7,25 @@ const BottomMenu = () => {
       style={{ backgroundColor: "#1C1C1E" }}
     >
       <div className="container-fluid justify-content-around">
-        <a
+      <Link
           className="nav-link d-flex flex-column align-items-center"
-          href="/"
+          to="/"
         >
           <i className="fas fa-home mb-1"></i>
           <span className="small">Home</span>
-        </a>
-        <a className="nav-link d-flex flex-column align-items-center" href="/categories">
+          </Link>
+        <Link className="nav-link d-flex flex-column align-items-center" to="/categories">
           <i className="fa-solid fa-layer-group mb-1"></i>
           <span className="small">Category</span>
-        </a>
-        <a className="nav-link d-flex flex-column align-items-center" href="/profile">
+        </Link>
+        <Link className="nav-link d-flex flex-column align-items-center" to="/profile">
           <i className="fas fa-user mb-1"></i>
           <span className="small">Profile</span>
-        </a>
-        <a className="nav-link d-flex flex-column align-items-center" href="/subcription">
+        </Link>
+        <Link className="nav-link d-flex flex-column align-items-center" to="/subcription">
           <i className="fa-solid fa-crown mb-1"></i>
           <span className="small">Pro</span>
-        </a>
+        </Link>
       </div>
     </nav>
   );

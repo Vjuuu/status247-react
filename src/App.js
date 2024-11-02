@@ -9,19 +9,18 @@ import BottomMenu from './users/components/BottomMenu';
 
 function App() {
   return (
-    <div className="container-fluid p-0 pb-5">
-    <Header />
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/categories" element={<Category />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/subcription" element={<Subcription />} />
-
-      </Routes>
+      <div className="container-fluid p-0 pb-5">
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/categories" element={<Category />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/subscription" element={<Subcription />} />
+        </Routes>
+        <BottomMenu />
+      </div>
     </Router>
-    <BottomMenu />
-    </div>
   );
 }
 
