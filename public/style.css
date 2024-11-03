@@ -155,10 +155,16 @@ body {
 {
     min-height: calc(100vh - 111px);
     width: 100%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    padding:30px;
+    text-align: center; */
+    padding:30px 30px 80px 30px;
+}
+
+.form-control-dark
+{
+    background-color: #141414 !important;
+    color: #dee2e6 !important
 }
