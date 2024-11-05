@@ -1,0 +1,19 @@
+.banner-wrapper
+{
+    height: calc(100vh - 56px);
+}
+.banner-preview 
+{
+    width:80% !important;
+    background-color: white;
+}
+.banner-preview img 
+{
+    width:100% !important;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.fs-11 
+{
+    font-size: 11px !important;
+}

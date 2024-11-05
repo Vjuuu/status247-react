@@ -22,6 +22,7 @@ function App() {
 
         {/* Routes without Header and BottomMenu */}
         <Route path="/template_preview" element={<NoHeaderFooterLayout><Template_preview /></NoHeaderFooterLayout>} />
+        
         {/* Add more routes without header/footer as needed */}
 
         <Route path="*" element={<NotFound />} />
