@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState , useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Category = () => {
   
@@ -44,7 +45,9 @@ const Category = () => {
                 {templates.map((template) => (
                     <div className="col-6 col-md-4 col-lg-3">
                       <div className="card mb-4">
-                      <img src={`${api_base_url}assets/templates/${template.template_img}`} alt="poster" className="card-img-top btn-poster" />
+                        <Link to={`/template_preview/${template.id}`} >
+                          <img src={`${api_base_url}assets/templates/${template.template_img}`} alt="poster" className="card-img-top btn-poster" />
+                          </Link>
                       </div>
                     </div>
                 ))}

@@ -21,7 +21,7 @@ function App() {
         <Route path="/subscription" element={<MainLayout><Subcription /></MainLayout>} />
 
         {/* Routes without Header and BottomMenu */}
-        <Route path="/template_preview" element={<NoHeaderFooterLayout><Template_preview /></NoHeaderFooterLayout>} />
+        <Route path="/template_preview/:id" element={<NoHeaderFooterLayout><Template_preview /></NoHeaderFooterLayout>} />
         
         {/* Add more routes without header/footer as needed */}
 
