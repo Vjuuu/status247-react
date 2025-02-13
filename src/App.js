@@ -9,6 +9,7 @@ import BottomMenu from './users/components/BottomMenu';
 import Template_preview from './users/pages/Template_preview';
 import { MainLayout  , NoHeaderFooterLayout} from './users/components/Layouts';
 import NotFound from './users/pages/NotFound';
+import Signin from './users/public_pages/Signin';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 
         {/* Routes without Header and BottomMenu */}
         <Route path="/template_preview/:id" element={<NoHeaderFooterLayout><Template_preview /></NoHeaderFooterLayout>} />
+        <Route path="/login" element={<NoHeaderFooterLayout><Signin/></NoHeaderFooterLayout>}></Route>
         
         {/* Add more routes without header/footer as needed */}
 
